@@ -1,0 +1,461 @@
+/*---------------------------------------------------------------------*/
+/*Page Home*/
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.banner h1, .banner h3, .banner h6 {
+  margin: 0;
+  text-shadow: 2px 2px 6px #000;
+  text-align: center;
+  margin-top: 50px;
+  margin-right: 80px;
+}
+
+.banner {
+  background: url("../res/Portfolio2.png") top left/cover no-repeat;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+/*---------------------------------------------------------------------*/
+/*Page about*/
+.body{
+  background: #ededed;
+}
+.about {
+  background:#FCFAF6;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+.sidebar-about {
+width: 100%;
+text-align: center;
+border-bottom: dotted;
+}
+.mot{
+width: 100%;
+padding-left: 50px;
+}
+/*------------------------------------------*/
+/*Page work*/
+/*patie text + video*/
+body{
+  background: #ededed;
+}
+.work {
+  background:#FCFAF6;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  justify-content: center;
+  align-items: center;
+}
+.vid {
+width: 100%;
+text-align: center;
+border-bottom: dotted;
+}
+.vid-text{
+width: 100%;
+padding-left: 50px;
+padding-right: 30px;
+}
+/*Video responsive*/
+.video-responsive { 
+overflow:hidden; 
+padding-bottom:56.25%; 
+position:relative; 
+height:0;
+}
+.video-responsive iframe {
+left:0; 
+top:0; 
+height:100%;
+width:100%;
+position:absolute;
+}
+/*Partie Image*/
+.gal{
+  margin-top: 20px;
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+  background-color:gray;
+}
+* {
+  box-sizing: border-box;
+}
+.responsive {
+    width: 100%;
+    padding: 0 6px;
+    float: left;
+  }
+/*---------------------------------------------------------------------*/
+/*Page Resume*/
+/* Appliquer à la totalité du site*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+/*Couleur arriére Plan*/
+body{
+    background: #ededed;
+}
+/*SECTIONS*/
+section{
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px #bbb;
+    background-color: #fff;
+}
+section > div{
+  width: 90%;
+}
+
+/*Resume*/
+/* Partie Présentation Photo + Qui suis je ?*/
+.photo{
+    text-align: center;
+}
+.photo img{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 10px #777;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+/* Qui suis-je ?*/
+.prez{
+    border-bottom: 2px dashed #ccc;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+/*Barre télécharger*/
+.prez a{
+  display: block;
+  text-align: center;
+  width: 40%;
+  padding: 10px;
+  margin: 10px auto 30px auto;
+  color: #fff;
+  background-color: #EA0;
+  box-shadow: 0px 0px 10px #ccc;
+  border-radius: 5px;
+}
+
+/*Partie Contact*/
+.contact-flex{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.contact-flex p:first-child{
+  flex: 0 0 40%;
+}
+.contact-flex p:last-child{
+  flex: 0 0 60%;
+}
+
+/*tableau 1 premiére expérience professionel*/
+.tab1{
+  display: grid;
+  grid-template-rows:  auto;
+  background-color: #fff;
+}
+.titre {
+  padding-top: 10px;
+  text-align: center;
+}
+.box {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows:  auto;
+  border-bottom: groove;
+}
+.elem1 {
+    grid-column-start: 1; 
+    grid-row-start: 1; 
+    grid-row-end: 4; 
+    background-color: #fff;
+    padding-left: 1em;
+}
+.logo {
+height: 120px;
+width: 120px;
+}
+.elem2 {
+  padding-left: 1em;
+  text-align: left;
+}
+.elem3 {
+    grid-column-start: 1;
+    grid-column-end: 3; 
+    background-color: #fff;
+    text-align: justify;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+/*Partie Compétence*/
+.box2{
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  grid-template-rows:  auto auto auto auto auto auto auto;
+
+}
+.elem4 {
+    grid-column-start: 1; 
+    grid-column-end: 3; 
+    background-color: #fff;
+    padding-left: 1em;
+}
+.elem5 {
+  text-align: left;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+/*partie Interet*/
+.box3{
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows:  auto ;
+  width: 100%;
+
+}
+.elem6 {
+    grid-column-start: 1; 
+    grid-column-end: 4; 
+    background-color: #fff;
+    padding-left: 1em;
+}
+.elem7 {
+  text-align: center;
+
+}
+/*footer*/
+.footer {
+	background: #666;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+
+.cont {
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+.rens{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.mail{
+	color:  lightseagreen;
+	text-decoration: none;
+}
+
+.diff{
+  text-align:center;
+}
+/*feuille contact*/
+* {
+  box-sizing: border-box;
+}
+/* zone text*/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+/*submit*/
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 0;
+  width: 100%;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+/*les compatiment du formualire*/
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  height:500PX;
+}
+/*les titres*/
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+/*partie 1*/
+.part1 {
+  float: left;
+  width: 100%;
+  margin-top: 0px;
+}
+/*partie 2*/
+.part2 {
+  float: left;
+  width: 100%;
+  margin-top: 0px;
+}
+
+.row::after{
+  content: "";
+  display: table;
+}
+
+
+/*VERSION BUREAU DU CV*/
+@media screen and (min-width: 980px){
+/*page home*/
+  .banner {
+    background: url("../res/Portfolio.jpg") top left/cover no-repeat;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner h1, .banner h3, .banner h6 {
+    margin: 0;
+    text-shadow: 2px 2px 6px #000;
+    text-align: center;
+  }
+/*---------------------------------------------------------------------*/
+/*Page About*/
+.about{
+  width: 80%;
+}
+.sidebar-about {
+  width: 40%;
+  border-bottom: none;
+  }
+  .mot{
+    width: 60%;
+  }
+/*---------------------------------------------------------------------*/
+/*Page Resume*/
+  section{
+    width: 80%;
+    box-shadow: 0px 0px 10px #bbb;
+  } 
+  .elem1 {
+    grid-column-start: 1; 
+    grid-row-start: 1; 
+    grid-row-end: 3; 
+    background-color: #fff;
+    padding-left: 1em;
+  }
+  .logo {
+    height: 150px;
+    width: 150px;
+    padding-top: 20px;
+    }
+  .elem3 {
+    grid-column-start: 2; 
+    background-color: #fff;
+    padding-right: 1em;
+  }
+  /*partie Interet*/
+.icone {
+  display: inline-block;
+  padding:140px;
+}
+/*---------------------------------------------------------------------*/
+/*Page Contact*/
+  /*partie 1*/
+  .part1 {
+    width: 25%;
+    margin-top: 6px;
+    padding-left:40px;
+  }
+  /*partie 2*/
+  .part2 {
+    width: 75%;
+    margin-top: 6px;
+    padding-left: 40px;
+  }
+  input[type=submit] {
+    float: right;
+    width: 30%;
+  }
+/*---------------------------------------------------------------------*/
+/*footer*/
+.Cont {
+	display: inline-block;
+	vertical-align: top;
+  width: 35%;
+}
+	.diff {
+		text-align: left;
+	}
+/*---------------------------------------------------------------------*/
+/*Page Work*/
+.work{
+  width: 80%;
+}
+.vid {
+  width: 50%;
+  border-bottom: none;
+  }
+.vid-text{
+    width: 50%;
+  }
+
+}
+/*----------------------------*/
+/*page work pour responsive image*/
+  @media only screen and (min-width: 768px){
+  .responsive {
+    width: 49.99999%;
+    padding: 0 6px;
+    float: left;
+    margin: 6px 0;
+  
+  }
+}
+
+  @media only screen and (min-width: 992px){
+  .responsive {
+    width: 24.99999%;
+    padding: 0 6px;
+    float: left;
+  }   
+}
